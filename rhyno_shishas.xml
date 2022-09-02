@@ -46,21 +46,37 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>1.1 </rem:number>
-<rem:paragraph oid="PRG-0016">
-<rem:name>Alcance</rem:name>
+<rem:paragraph oid="PRG-0013">
+<rem:name>Introduccion dominio</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>2</rem:day>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders="STK-0002 STK-0003 "/>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>La empresa a la que va dirigido este estudio trabaja en el sector de los servicios, concretamente el ocio nocturno.<br/><br/>Muchos locales de éste ambito que disponen de terraza aprovechan la oportunidad para ofertar shishas a sus clientes, además de bebidas etc. Para poder ofrecer este producto además de necesitar la propia <rem:ref oid="GLO-0048">cachimba</rem:ref> en inventario, es usual que una persona ofrezca el aparato en cuestión listo para su uso. Sin embargo normalmente los locales no se ocupan directamente, prefieren dejar que otra empresa se encargue.<br/><br/>Ahí es donde Rhyno shishas entra</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0003">
+<rem:name>Logo de la empresa</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2021</rem:year>
+<rem:month>10</rem:month>
+<rem:day>21</rem:day>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders="STK-0002 "/>
+<rem:sources stakeholders="STK-0001 "/>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>El alcance del sistema de información planteado afectará al negocio de rhyno shishas de la siguiente manera:<br/><br/>* Gestión de contabilidad automatizada: afecta a un documento excel existente que es donde se lleva la contabilidad actual.<br/><br/>* Gestión de pedidos de los clientes mediante una app que agilizará y evitará acumulacion de demanda. No afecta ningún sistema debido a la novedad.<br/><br/>* Plataforma web de la aplicación: No afecta ningún sistema ya que la única forma actual de promoción es una pagina de Instagram que puede llevarse paralelamente.<br/><br/>* Gestión de la relación con los clientes: en especial puede atenuarse debido a la tramitación informática, sin embargo, una agilización de la tarea puede incidir en más tiempo libre para tener un trato excelente con los clientes.<br/><br/>* No afecta al sistema de gestión de inventario ya que no existe por el momento.</rem:text>
-</rem:paragraph>
+<rem:fileName><![CDATA[.\images\rhyno_shishasimg.PNG]]></rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section oid="SEC-0085">
 <rem:name>Participantes en el proyecto</rem:name>
@@ -330,37 +346,34 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>2.1 </rem:number>
-<rem:paragraph oid="PRG-0013">
-<rem:name>Introduccion dominio</rem:name>
+<rem:graphicFile oid="GRF-0044">
+<rem:name>empresa</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2020</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>16</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders="STK-0002 STK-0003 "/>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>La empresa a la que va dirigido este estudio trabaja en el sector de los servicios, concretamente el ocio nocturno.<br/><br/>Muchos locales de éste ambito que disponen de terraza aprovechan la oportunidad para ofertar shishas a sus clientes, además de bebidas etc. Para poder ofrecer este producto además de necesitar la propia <rem:ref oid="GLO-0048">cachimba</rem:ref> en inventario, es usual que una persona ofrezca el aparato en cuestión listo para su uso. Sin embargo normalmente los locales no se ocupan directamente, prefieren dejar que otra empresa se encargue.<br/><br/>Ahí es donde Rhyno shishas entra</rem:text>
-</rem:paragraph>
-<rem:graphicFile oid="GRF-0003">
-<rem:name>Logo de la empresa</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>21</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders="STK-0002 "/>
-<rem:sources stakeholders="STK-0001 "/>
-<rem:comments>Ninguno</rem:comments>
-<rem:fileName><![CDATA[.\images\rhyno_shishasimg.PNG]]></rem:fileName>
+<rem:fileName><![CDATA[.\images\empresa.PNG]]></rem:fileName>
 </rem:graphicFile>
+<rem:paragraph oid="PRG-0128">
+<rem:name>Dominio del problema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>Nuestro dominio de problema tiene una situación particular, puesto que el cliente requiere de una atención concurrente entre los dueños de locales donde se servirá el producto, y los consumidores del propio producto.<br/><br/>Cada tipo de cliente de nuestro cliente tiene sus propias necesidades ya sea concertar citas por un lado o bien pedir un cierto tipo de <rem:ref oid="GLO-0048">cachimba</rem:ref>, estas serán detalladas más adelante. Es por esto que nos movemos en un dominio mixto y tenemos que hacer frente a dos problemas paralelos pero a la vez relacionados.</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0029">
 <rem:name>Glosario de términos del dominio del problema</rem:name>
@@ -604,7 +617,7 @@
 </rem:date>
 </rem:version>
 <rem:authors stakeholders="STK-0004 "/>
-<rem:sources stakeholders="STK-0004 STK-0001 "/>
+<rem:sources stakeholders="STK-0001 STK-0004 "/>
 <rem:comments>Ninguno</rem:comments>
 <rem:text>Respecto a otros negocios similares en locales cercanos, los productos que ofrece Rhyno Shishas son de una calidad superior sin tener una gran diferencia en el precio.</rem:text>
 </rem:glossaryItem>
@@ -749,20 +762,6 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.2.1 </rem:number>
-<rem:paragraph oid="PRG-0071">
-<rem:name>Presentación actores</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>Independientemente de la naturaleza del actor, un rol de esta categoría puede ser tomado por una persona que ya tiene otro rol, o incluso ser intercambiado en mitad de un turno en función de las circunstancias</rem:text>
-</rem:paragraph>
 <rem:glossaryItem oid="GLO-0035">
 <rem:name>[ANA-0001] Cachimbero</rem:name>
 <rem:version>
@@ -1247,8 +1246,8 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>5 </rem:number>
-<rem:paragraph oid="PRG-0099">
-<rem:name>Subsistemas a desarrollar</rem:name>
+<rem:glossaryItem oid="GLO-0099">
+<rem:name>Subsistema Pedidos</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1259,8 +1258,50 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>No se requiere desarrollar ningún tipo de subsistema.</rem:text>
-</rem:paragraph>
+<rem:text>El subsistema permite a los consumidores realizar pedidos, mientras que muestra al cachimbero los pedidos existentes y le permite gestionarlos. Además, a partir del conjunto de pedidos realizados en un establecimiento durante una jornada se puede generar un documento de contabilidad.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0129">
+<rem:name>Subsistema Inventario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>El subsistema mostrará al cachimbero el inventario del que dispone un establecimiento indicado por él. En la vista se mostrarán todos los elementos de los que se disponen (sabores, carbones, etc) junto con sus cantidades. Además, a partir de esta vista se puede generar un documento de texto con los elementos del inventario que se desean reponer para enviárselos al proveedor.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0130">
+<rem:name>Subsistema Eventos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>El sistema permite al consumidor seleccionar una fecha disponible por la empresa para una contratación de un evento. Dicho subsistema también se encarga de mostrar al cachimbero los próximos eventos que atender y asignar trabajadores que atiendan los mismos.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0131">
+<rem:name>Subsistema Cuentas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>El subsistema se encarga de proveer a nuevos usuarios de la aplicación una interfaz de registro sencilla. Los usuarios deben clasificarse como consumidores o empleados para poder restringir los otros subsistemas a los que pueden acceder.</rem:text>
+</rem:glossaryItem>
 </rem:section>
 <rem:section oid="SEC-0016">
 <rem:name>Catálogo de requisitos del sistema a desarrollar</rem:name>
@@ -1276,20 +1317,6 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>6 </rem:number>
-<rem:paragraph oid="PRG-0085">
-<rem:name>Introducción a los requisitos del sistema a desarrollar</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>En este apartado se presentarán las distintas perspectivas de los requisitos del nuevo sistema a implementar<br/></rem:text>
-</rem:paragraph>
 <rem:section oid="SEC-0011">
 <rem:name>Requisitos generales del sistema</rem:name>
 <rem:version>
@@ -1304,20 +1331,114 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>6.1 </rem:number>
-<rem:paragraph oid="PRG-0086">
-<rem:name>Requisitos generales</rem:name>
+<rem:objective oid="OBJ-0001">
+<rem:name>Gestión de pedidos</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>De forma general, se busca que el sistema ayude a la gestion del negocio en la mayor medida posible (ya que procesos como la preparación de una <rem:ref oid="GLO-0048">cachimba</rem:ref> evidentemente no son realizables por un sistema de información). <br/><br/>Estos puntos generalmente se resumen en:<br/><br/>* Un registro de todas las acciones que se realizan en el sistema <br/><br/>* Ayuda a la organización de citas<br/><br/>* Ayuda a la gestión de pedidos<br/><br/>* Ayuda en la gestión de inventario  <br/><br/></rem:text>
-</rem:paragraph>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>proporcionar una interfaz a los consumidores para realizar pedidos y al cachimbero para poder gestionarlos</rem:description>
+</rem:objective>
+<rem:objective oid="OBJ-0002">
+<rem:name>Gestión de inventario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>otorgar al cachimbero una visualización cómoda del inventario de la empresa</rem:description>
+</rem:objective>
+<rem:objective oid="OBJ-0003">
+<rem:name>Gestión de eventos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>proveer a los consumidores de una interfaz para poder contratar los servicios de la empresa para eventos; además de otra interfaz dedicada al cachimbero para poder visualizar eventos pendientes y asignar personal para atenderlos</rem:description>
+</rem:objective>
+<rem:objective oid="OBJ-0004">
+<rem:name>Gestión de cuentas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>ser capaz de dar de alta a nuevos usuarios en la aplicación, distinguiéndolos entre consumidores y empleados</rem:description>
+</rem:objective>
+<rem:objective oid="OBJ-0005">
+<rem:name>Gestión de contabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>generar archivos con información relevante para la contabilidad del negocio</rem:description>
+</rem:objective>
+<rem:objective oid="OBJ-0006">
+<rem:name>Gestión de reabastecimiento</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>generar un documento con un pedido al proveedor con los elementos del inventario que se desean reabastecer</rem:description>
+</rem:objective>
 </rem:section>
 <rem:section oid="SEC-0012">
 <rem:name>Casos de uso del sistema</rem:name>
@@ -1347,33 +1468,61 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.2.1 </rem:number>
-<rem:graphicFile oid="GRF-0013">
-<rem:name>Casos de uso (consumidor)</rem:name>
+<rem:graphicFile oid="GRF-0047">
+<rem:name>Casos de uso (Cuentas)</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>21</rem:day>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>23</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:fileName><![CDATA[.\images\casouso1.drawio.png]]></rem:fileName>
+<rem:fileName><![CDATA[.\images\casouso1.png]]></rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile oid="GRF-0014">
-<rem:name>Casos de uso (cachimbero)</rem:name>
+<rem:graphicFile oid="GRF-0048">
+<rem:name>Casos de uso (Eventos)</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>21</rem:day>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>23</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:fileName><![CDATA[.\images\casouso3.drawio.png]]></rem:fileName>
+<rem:fileName><![CDATA[.\images\casouso2.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0049">
+<rem:name>Casos de uso (Pedidos)</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\casouso3.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0050">
+<rem:name>Casos de uso (Inventario)</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\casouso4.png]]></rem:fileName>
 </rem:graphicFile>
 </rem:section>
 <rem:section oid="SEC-0014">
@@ -1454,7 +1603,7 @@
 <rem:stability><rem:tbd/></rem:stability>
 <rem:triggeringEvent>el consumidor debe elegir el sabor del tabaco, el tamaño de la <rem:ref oid="GLO-0048">cachimba</rem:ref> y el número de cachimbas que quiere. Previamente, ha debido indicar el establecimiento en el que se encuentra y la mesa que está ocupando</rem:triggeringEvent>
 <rem:precondition>El sistema se encuentra a la espera de una petición por parte de un usuario registrado como consumidor</rem:precondition>
-<rem:postcondition>El sistema vuelve al estado de espera anterior</rem:postcondition>
+<rem:postcondition>La información del pedido es almacenada por el sistema y queda a disposición del cachimbero.</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -1479,15 +1628,8 @@
 </rem:actorAction>
 <rem:comments>Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0036">
-<rem:number>4</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>selecciona un método de pago</rem:description>
-</rem:actorAction>
-<rem:comments>Ninguno</rem:comments>
-</rem:step>
 <rem:step oid = "STP-0037">
-<rem:number>5</rem:number>
+<rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>notifica al cachimbero el pedido realizado</rem:description>
 </rem:systemAction>
@@ -1495,7 +1637,7 @@
 </rem:step>
 </rem:useCase>
 <rem:useCase oid="UC-0002">
-<rem:name>Realizar el pago</rem:name>
+<rem:name>Seleccionar vía de pago</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1511,7 +1653,7 @@
 <rem:urgency><rem:tbd/></rem:urgency>
 <rem:status><rem:tbd/></rem:status>
 <rem:stability><rem:tbd/></rem:stability>
-<rem:triggeringEvent>el consumidor ha completado el pedido y debe elegir cómo pagarlo. Puede optar por hacer un Bizum a la cuenta del cachimbero o bien pagar en metálico al ser entregado el pedido</rem:triggeringEvent>
+<rem:triggeringEvent>el consumidor ha completado el pedido y debe elegir cómo pagarlo. Puede optar por hacer un Bizum a la cuenta del cachimbero, pagar con tarjeta o bien pagar en metálico al ser entregado el pedido</rem:triggeringEvent>
 <rem:precondition>El consumidor ha completado la primera fase del pedido</rem:precondition>
 <rem:postcondition>El sistema vuelve a estar disponible para realizar otra acción</rem:postcondition>
 <rem:frequency>
@@ -1538,17 +1680,10 @@
 </rem:actorAction>
 <rem:comments>Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0039">
-<rem:number>4</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>realiza el pago según el método elegido</rem:description>
-</rem:actorAction>
-<rem:comments>Ninguno</rem:comments>
-</rem:step>
 <rem:step oid = "STP-0040">
-<rem:number>5</rem:number>
+<rem:number>4</rem:number>
 <rem:systemAction>
-<rem:description>da por finalizado el proceso de pago</rem:description>
+<rem:description>da por finalizado el proceso de elección del método de pago</rem:description>
 </rem:systemAction>
 <rem:comments>Ninguno</rem:comments>
 </rem:step>
@@ -1572,7 +1707,7 @@
 <rem:stability><rem:tbd/></rem:stability>
 <rem:triggeringEvent>el consumidor quiere alquilar los servicios de la empresa para un evento determinado (por ejemplo, un cumpleaños). Deberá consultar un calendario para ver si la fecha en la que necesita el servicio está disponible para la empresa</rem:triggeringEvent>
 <rem:precondition>El sistema se encuentra a la espera de que el consumidor elija pedir una cita</rem:precondition>
-<rem:postcondition>El sistema vuelve a estar disponible para realizar otra acción</rem:postcondition>
+<rem:postcondition>El sistema guarda la información correspondiente al evento y notifica al cachimbero para que prepare el material.</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -1638,7 +1773,7 @@
 <rem:stability><rem:tbd/></rem:stability>
 <rem:triggeringEvent>el cachimbero desea comprobar las existencias de uno o varios productos de las que dispone. Además, en esta sección se puede generar un documento con un pedido al proveedor para poder reponer los productos necesarios</rem:triggeringEvent>
 <rem:precondition>El sistema se encuentra a la espera de que el cachimbero seleccione consultar el inventario</rem:precondition>
-<rem:postcondition>El sistema vuelve a estar disponible para realizar otra acción</rem:postcondition>
+<rem:postcondition>El sistema se mantiene mostrando esta pestaña hasta que el cachimbero decida realizar otra acción.</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -1676,7 +1811,7 @@
 <rem:stability><rem:tbd/></rem:stability>
 <rem:triggeringEvent>el cachimbero quiere comprobar si existen eventos que asistir dentro de poco. Podrá visualizar un calendario en las que las fechas con eventos estén señalizadas</rem:triggeringEvent>
 <rem:precondition>El sistema se encuentra a la espera de que el cachimbero seleccione consultar los eventos pendientes</rem:precondition>
-<rem:postcondition>El sistema vuelve a estar disponible para realizar otra acción</rem:postcondition>
+<rem:postcondition>El cachimbero puede asignar trabajadores para que atiendan el evento seleccionado</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -1728,49 +1863,35 @@
 <rem:stability><rem:tbd/></rem:stability>
 <rem:triggeringEvent>el cachimbero quiere asignar a uno o varios trabajadores a un evento determinado</rem:triggeringEvent>
 <rem:precondition>El sistema se encuentra mostrando los detalles de un evento al cachimbero</rem:precondition>
-<rem:postcondition>El sistema vuelve a estar disponible para realizar otra acción</rem:postcondition>
+<rem:postcondition>El sistema guarda la asignación y notifica a los trabajadores asignados</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
 <rem:step oid = "STP-0019">
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0002">
-<rem:description>visualiza un evento determinado </rem:description>
-</rem:actorAction>
-<rem:comments>Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0020">
-<rem:number>2</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>solicita al sistema una lista de empleados disponibles en la fecha del evento</rem:description>
+<rem:description>visualiza un evento determinado y solicita asignar trabajadores a dicho evento</rem:description>
 </rem:actorAction>
 <rem:comments>Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0021">
-<rem:number>3</rem:number>
+<rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>muestra una lista de empleados disponibles para la fecha del evento</rem:description>
 </rem:systemAction>
 <rem:comments>Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0022">
-<rem:number>4</rem:number>
+<rem:number>3</rem:number>
 <rem:actorAction actor = "ACT-0002">
 <rem:description>selecciona uno o varios empleados para que atiendan el evento</rem:description>
 </rem:actorAction>
 <rem:comments>Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0042">
-<rem:number>5</rem:number>
+<rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>asigna a los trabajadores indicados por el cachimbero al evento en concreto</rem:description>
-</rem:systemAction>
-<rem:comments>Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0043">
-<rem:number>6</rem:number>
-<rem:systemAction>
-<rem:description>notifica a dichos trabajadores sobre el evento que deben atender</rem:description>
 </rem:systemAction>
 <rem:comments>Ninguno</rem:comments>
 </rem:step>
@@ -1794,7 +1915,7 @@
 <rem:stability><rem:tbd/></rem:stability>
 <rem:triggeringEvent>el cachimbero desea consultar los pedidos que tiene que atender. También puede comprobar el tiempo que lleva cada pedido sin entregar para poder dar prioridad a los que llevan más retraso</rem:triggeringEvent>
 <rem:precondition>El sistema se encuentra a la espera de que el cachimbero seleccione consultar los pedidos pendientes</rem:precondition>
-<rem:postcondition>El sistema vuelve a estar disponible para realizar otra acción</rem:postcondition>
+<rem:postcondition>El sistema borra los pedidos marcados por el cachimbero de la BBDD</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -1860,7 +1981,7 @@
 <rem:stability><rem:tbd/></rem:stability>
 <rem:triggeringEvent>el cachimbero desea obtener un informe del negocio al finalizar la jornada. En él puede ver diversas estadísticas como las ganancias totales, modelo de <rem:ref oid="GLO-0048">cachimba</rem:ref> más solicitada, sabor más vendido, cantidad total gastada de un determinado producto... </rem:triggeringEvent>
 <rem:precondition>El sistema se encuentra a la espera de que el cachimbero solicite un informe de la jornada</rem:precondition>
-<rem:postcondition>El sistema vuelve a estar disponible para realizar otra acción</rem:postcondition>
+<rem:postcondition>El cachimbero puede revisar el documento en cualquier momento, independientemente de si se encuentra usando el sistema.</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -1874,7 +1995,21 @@
 <rem:step oid = "STP-0029">
 <rem:number>2</rem:number>
 <rem:systemAction>
-<rem:description>genera un documento con estadísticas de la jornada en el establecimiento indicado (número de cachimbas vendidas, sabores más vendidos, ganancias totales...)</rem:description>
+<rem:description>genera un documento con estadísticas de la jornada en el establecimiento indicado (número de cachimbas vendidas, sabores más vendidos, ganancias totales...) y lo muestra al cachimbero</rem:description>
+</rem:systemAction>
+<rem:comments>Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0100">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>descarga el documento</rem:description>
+</rem:actorAction>
+<rem:comments>Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0101">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>regresa a la pestaña principal</rem:description>
 </rem:systemAction>
 <rem:comments>Ninguno</rem:comments>
 </rem:step>
@@ -1898,43 +2033,168 @@
 <rem:stability><rem:tbd/></rem:stability>
 <rem:triggeringEvent>el cachimbero quiere generar un documento automáticamente con la cantidad de producto que desee reponer, para posteriormente enviarlo al proveedor</rem:triggeringEvent>
 <rem:precondition>El sistema se encuentra mostrando el inventario al cachimbero</rem:precondition>
-<rem:postcondition>El sistema vuelve a estar disponible para realizar otra acción</rem:postcondition>
+<rem:postcondition>El cachimbero puede enviarle el documento generado al proveedor </rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
 <rem:step oid = "STP-0031">
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0002">
-<rem:description>selecciona el producto o productos a reponer</rem:description>
-</rem:actorAction>
-<rem:comments>Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0032">
-<rem:number>2</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>solicita al sistema generar un documento con los productos seleccionados</rem:description>
+<rem:description>selecciona el producto o productos a reponer y solicita al sistema generar un documento con dichos productos</rem:description>
 </rem:actorAction>
 <rem:comments>Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0033">
-<rem:number>3</rem:number>
+<rem:number>2</rem:number>
 <rem:systemAction>
-<rem:description>genera un documento con los productos seleccionados por el cachimbero</rem:description>
-</rem:systemAction>
-<rem:comments>Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0034">
-<rem:number>4</rem:number>
-<rem:systemAction>
-<rem:description>muestra el documento al cachimbero</rem:description>
+<rem:description>genera un documento con los productos seleccionados por el cachimbero y se lo muestra al cachimbero</rem:description>
 </rem:systemAction>
 <rem:comments>Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0035">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>descarga el documento</rem:description>
+</rem:actorAction>
+<rem:comments>Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0099">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>regresa a la pestaña que muestra el inventario</rem:description>
+</rem:systemAction>
+<rem:comments>Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase oid="UC-0010">
+<rem:name>Crear cuenta de consumidor</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders="STK-0004 "/>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:triggeringEvent>un usuario desea crear una cuenta en el sistema para poder acceder a las operaciones del consumidor</rem:triggeringEvent>
+<rem:precondition>El usuario ha entrado en la aplicación sin tener una cuenta creada</rem:precondition>
+<rem:postcondition>El usuario puede acceder a las operaciones del consumidor</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0085">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>entra en la sección de crear una nueva cuenta</rem:description>
+</rem:actorAction>
+<rem:comments>Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0086">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>pregunta si se desea crear una cuenta de Consumidor o de Personal</rem:description>
+</rem:systemAction>
+<rem:comments>Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0087">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>indica que quiere crear una cuenta de Consumidor</rem:description>
+</rem:actorAction>
+<rem:comments>Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0088">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>muestra un formulario a rellenar con los siguientes apartados: Nombre, Correo Electrónico y Contraseña</rem:description>
+</rem:systemAction>
+<rem:comments>Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0089">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>rellena el formulario con los datos convenientes</rem:description>
+</rem:actorAction>
+<rem:comments>Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0090">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>valida los datos introducidos y si son correctos, redirige al Consumidor a la vista principal de consumidores</rem:description>
+</rem:systemAction>
+<rem:comments>Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase oid="UC-0011">
+<rem:name>Crear cuenta de cachimbero</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders="STK-0004 "/>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:triggeringEvent>un usuario desea crear una cuenta en el sistema para poder acceder a las operaciones del cachimbero</rem:triggeringEvent>
+<rem:precondition>El usuario ha entrado en la aplicación sin tener una cuenta creada</rem:precondition>
+<rem:postcondition>El usuario puede acceder a las operaciones del cachimbero</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0093">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>entra en la sección de crear una nueva cuenta</rem:description>
+</rem:actorAction>
+<rem:comments>Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0094">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>pregunta si se desea crear una cuenta de Consumidor o de Personal</rem:description>
+</rem:systemAction>
+<rem:comments>Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0095">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>indica que quiere crear una cuenta de Consumidor</rem:description>
+</rem:actorAction>
+<rem:comments>Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0096">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>muestra un formulario a rellenar con los siguientes apartados: Nombre, Apellidos, Teléfono, Correo Electrónico y Contraseña</rem:description>
+</rem:systemAction>
+<rem:comments>Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0097">
 <rem:number>5</rem:number>
 <rem:actorAction actor = "ACT-0002">
-<rem:description>descarga el documento y lo envía al proveedor</rem:description>
+<rem:description>rellena el formulario con los datos convenientes</rem:description>
 </rem:actorAction>
+<rem:comments>Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0098">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>valida los datos introducidos y si son correctos, redirige al Cachimbero a la vista principal de cachimberos</rem:description>
+</rem:systemAction>
 <rem:comments>Ninguno</rem:comments>
 </rem:step>
 </rem:useCase>
@@ -1954,167 +2214,6 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>6.3 </rem:number>
-<rem:functionalRequirement oid="FRQ-0001">
-<rem:name>Registro</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders="STK-0002 "/>
-<rem:comments>Ninguno</rem:comments>
-<rem:importance><rem:tbd/></rem:importance>
-<rem:urgency><rem:tbd/></rem:urgency>
-<rem:status><rem:tbd/></rem:status>
-<rem:stability><rem:tbd/></rem:stability>
-<rem:description>permitir crear una cuenta para usar la aplicación completamente</rem:description>
-</rem:functionalRequirement>
-<rem:functionalRequirement oid="FRQ-0002">
-<rem:name>Logeo</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders="STK-0002 "/>
-<rem:comments>Ninguno</rem:comments>
-<rem:importance><rem:tbd/></rem:importance>
-<rem:urgency><rem:tbd/></rem:urgency>
-<rem:status><rem:tbd/></rem:status>
-<rem:stability><rem:tbd/></rem:stability>
-<rem:description>proporcionar una opción para autenticarse</rem:description>
-</rem:functionalRequirement>
-<rem:paragraph oid="PRG-0087">
-<rem:name>Requisitos de trabajadores</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>* A partir de este punto se muestran los requisitos funcionales desde la perspectiva de un empleado de la empresa<br/></rem:text>
-</rem:paragraph>
-<rem:functionalRequirement oid="FRQ-0003">
-<rem:name>Gestión de inventario</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders="STK-0002 "/>
-<rem:comments>Ninguno</rem:comments>
-<rem:importance><rem:tbd/></rem:importance>
-<rem:urgency><rem:tbd/></rem:urgency>
-<rem:status><rem:tbd/></rem:status>
-<rem:stability><rem:tbd/></rem:stability>
-<rem:description>proporcionar una vista clara del negocio desde el punto de vista material.<br/>Desde esta funcionalidad el empleado en primer lugar ha de ser capaz de visualizar claramente, además de poder paginar todo el inventario de la empresa.<br/><br/>A su vez, puede modificar su contenido</rem:description>
-</rem:functionalRequirement>
-<rem:functionalRequirement oid="FRQ-0005">
-<rem:name>Resumen de turno</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders="STK-0002 "/>
-<rem:comments>Ninguno</rem:comments>
-<rem:importance><rem:tbd/></rem:importance>
-<rem:urgency><rem:tbd/></rem:urgency>
-<rem:status><rem:tbd/></rem:status>
-<rem:stability><rem:tbd/></rem:stability>
-<rem:description>mostrar un resumen de la jornada hecha en un turno, para poder llevar un registro de las ventas realizadas, sus horas etc  y realizar un análisis posterior</rem:description>
-</rem:functionalRequirement>
-<rem:functionalRequirement oid="FRQ-0006">
-<rem:name>Calendario de citas</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders="STK-0002 "/>
-<rem:comments>Ninguno</rem:comments>
-<rem:importance><rem:tbd/></rem:importance>
-<rem:urgency><rem:tbd/></rem:urgency>
-<rem:status><rem:tbd/></rem:status>
-<rem:stability><rem:tbd/></rem:stability>
-<rem:description>mostrar una vista de calendario donde gestionar las citas pendientes con los clientes. <br/>Además, debe poder permitir asignar trabajadores a determinados eventos</rem:description>
-</rem:functionalRequirement>
-<rem:paragraph oid="PRG-0088">
-<rem:name>Requisitos de consumidores/clientes</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Ninguno</rem:comments>
-<rem:text>* A partir de este punto se muestran los requisitos funcionales desde la perspectiva de un empleado de la empresa<br/></rem:text>
-</rem:paragraph>
-<rem:functionalRequirement oid="FRQ-0007">
-<rem:name>Realizar pedido</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders="STK-0002 "/>
-<rem:comments>Ninguno</rem:comments>
-<rem:importance><rem:tbd/></rem:importance>
-<rem:urgency><rem:tbd/></rem:urgency>
-<rem:status><rem:tbd/></rem:status>
-<rem:stability><rem:tbd/></rem:stability>
-<rem:description>permitir encargar el servicio de cachimbas para un número de consumidores indicado, un método de pago a una mesa determinada y con la combinación de tabaco deseada</rem:description>
-</rem:functionalRequirement>
-<rem:functionalRequirement oid="FRQ-0008">
-<rem:name>Concertar cita</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders="STK-0002 "/>
-<rem:comments>Ninguno</rem:comments>
-<rem:importance><rem:tbd/></rem:importance>
-<rem:urgency><rem:tbd/></rem:urgency>
-<rem:status><rem:tbd/></rem:status>
-<rem:stability><rem:tbd/></rem:stability>
-<rem:description>proporcionar una vista para proponer un evento a la empresa Rhyno shishas. Para ello debe mostrarse un calendario que ilustre los dias que ya han sido fijados.</rem:description>
-</rem:functionalRequirement>
 <rem:section oid="SEC-0017">
 <rem:name>Requisitos de información del sistema</rem:name>
 <rem:version>
@@ -2367,10 +2466,6 @@
 <rem:description>Contraseña</rem:description>
 <rem:comments>Ninguno</rem:comments>
 </rem:specificData>
-<rem:specificData oid = "DAT-0067">
-<rem:description>Tipo de cliente</rem:description>
-<rem:comments>Consumidor, Organizador de evento</rem:comments>
-</rem:specificData>
 </rem:informationRequirement>
 <rem:informationRequirement oid="IRQ-0006">
 <rem:name>Cita</rem:name>
@@ -2619,6 +2714,64 @@
 <rem:stability><rem:tbd/></rem:stability>
 <rem:description>No se oferta tabaco que no esté en inventario a los consumidores para evitar contratiempos</rem:description>
 </rem:constraintRequirement>
+<rem:constraintRequirement
+ oid="CRQ-0003">
+<rem:name>Emails</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders="STK-0002 "/>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>Los emails serán únicos, no deben existir varias cuentas con un mismo email</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid="CRQ-0004">
+<rem:name>Límite de pedidos por mesa</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>Sólo habrá un pedido por mesa y local a la vez, si el pedido de una mesa no ha sido atendido no puede realizarse otra orden más. En caso de querer cambiar debe eliminarse el pedido anterior</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid="CRQ-0005">
+<rem:name>Almacenamiento de citas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>No es posible almacenar citas en una fecha pasada a la actual. Las citas con fechas pasadas a la actual serán eliminadas del calendario de futuros eventos</rem:description>
+</rem:constraintRequirement>
 </rem:section>
 <rem:section oid="SEC-0019">
 <rem:name>Requisitos de conducta del sistema</rem:name>
@@ -2634,24 +2787,59 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.3.3 </rem:number>
-<rem:functionalRequirement oid="FRQ-0004">
-<rem:name>Auto-pedido</rem:name>
+<rem:functionalRequirement oid="FRQ-0001">
+<rem:name>Informe de pedido</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders="STK-0002 "/>
 <rem:comments>Ninguno</rem:comments>
 <rem:importance><rem:tbd/></rem:importance>
 <rem:urgency><rem:tbd/></rem:urgency>
 <rem:status><rem:tbd/></rem:status>
 <rem:stability><rem:tbd/></rem:stability>
 <rem:description>hacer un calculo aproximado del gasto por pedido y anotar los materiales gastados para que el propietario tan sólo tenga que mandar este registro al proveedor o realizar pequeñas correcciones en función del material actual</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement oid="FRQ-0002">
+<rem:name>Notificación de cita próxima</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>enviar una notificación cada vez que falte 1 semana y cada vez que falten 24 horas para un evento programado en la aplicación</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement oid="FRQ-0003">
+<rem:name>Notificación de pedido retrasado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>enviar una notificación al cachimbero que está atendiendo un determinado local cada vez que pasen más de 15 minutos desde que se realizó un pedido aclarando de qué mesa se trata</rem:description>
 </rem:functionalRequirement>
 </rem:section>
 </rem:section>
@@ -2683,25 +2871,20 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.4.1 </rem:number>
-<rem:nonFunctionalRequirement oid="NFR-0001">
-<rem:name>Off-line</rem:name>
+<rem:paragraph oid="PRG-0132">
+<rem:name>Requisitos de fiabilidad</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders="STK-0002 "/>
 <rem:comments>Ninguno</rem:comments>
-<rem:importance><rem:tbd/></rem:importance>
-<rem:urgency><rem:tbd/></rem:urgency>
-<rem:status><rem:tbd/></rem:status>
-<rem:stability><rem:tbd/></rem:stability>
-<rem:description>permitir seguir generando pedidos aunque sea de forma manual y no esté en linea para no descuadrar inventario</rem:description>
-</rem:nonFunctionalRequirement>
+<rem:text>No hay requisitos especialmente enunciables en esta sección</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0033">
 <rem:name>Requisitos de usabilidad del sistema</rem:name>
@@ -2804,25 +2987,20 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.4.5 </rem:number>
-<rem:nonFunctionalRequirement oid="NFR-0002">
-<rem:name>Multi-dispositivo</rem:name>
+<rem:paragraph oid="PRG-0133">
+<rem:name>Requisitos de portabilidad del sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders="STK-0002 "/>
 <rem:comments>Ninguno</rem:comments>
-<rem:importance><rem:tbd/></rem:importance>
-<rem:urgency><rem:tbd/></rem:urgency>
-<rem:status><rem:tbd/></rem:status>
-<rem:stability><rem:tbd/></rem:stability>
-<rem:description>ser adaptable a varias vistas, tanto para un ordenador situado en el lugar como los móviles de los consumidores</rem:description>
-</rem:nonFunctionalRequirement>
+<rem:text>No hay requisitos especialmente enunciables en esta sección</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section oid="SEC-0037">
 <rem:name>Requisitos de seguridad del sistema</rem:name>
@@ -2838,20 +3016,24 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.4.6 </rem:number>
-<rem:paragraph oid="PRG-0092">
-<rem:name>Copia de Requisitos de eficiencia</rem:name>
+<rem:nonFunctionalRequirement oid="NFR-0001">
+<rem:name>Registro</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2021</rem:year>
-<rem:month>11</rem:month>
-<rem:day>20</rem:day>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>No hay requisitos especialmente enunciables en esta sección</rem:text>
-</rem:paragraph>
+<rem:importance><rem:tbd/></rem:importance>
+<rem:urgency><rem:tbd/></rem:urgency>
+<rem:status><rem:tbd/></rem:status>
+<rem:stability><rem:tbd/></rem:stability>
+<rem:description>permitir crear una cuenta para usar la aplicación completamente, protegiendo los datos personales tanto de trabajadores como clientes</rem:description>
+</rem:nonFunctionalRequirement>
 </rem:section>
 <rem:section oid="SEC-0057">
 <rem:name>Otros requisitos no funcionales del sistema</rem:name>
@@ -2955,6 +3137,12 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:tr>
 <rem:th/>
+<rem:th oid ="OBJ-0001"/>
+<rem:th oid ="OBJ-0002"/>
+<rem:th oid ="OBJ-0003"/>
+<rem:th oid ="OBJ-0004"/>
+<rem:th oid ="OBJ-0005"/>
+<rem:th oid ="OBJ-0006"/>
 <rem:th oid ="UC-0001"/>
 <rem:th oid ="UC-0002"/>
 <rem:th oid ="UC-0003"/>
@@ -2964,21 +3152,37 @@
 <rem:th oid ="UC-0007"/>
 <rem:th oid ="UC-0008"/>
 <rem:th oid ="UC-0009"/>
+<rem:th oid ="UC-0010"/>
+<rem:th oid ="UC-0011"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0001"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0002"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
@@ -2987,10 +3191,18 @@
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0003"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
@@ -3000,9 +3212,17 @@
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0004"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
@@ -3012,9 +3232,17 @@
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0005"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
@@ -3023,16 +3251,26 @@
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0006"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -3047,7 +3285,15 @@
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0008"/>
@@ -3059,10 +3305,24 @@
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0009"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -3071,6 +3331,8 @@
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
@@ -3078,39 +3340,46 @@
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="FRQ-0002"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="FRQ-0003"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="FRQ-0004"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -3119,49 +3388,6 @@
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="yes"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="FRQ-0005"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="no"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="FRQ-0006"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="FRQ-0007"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="FRQ-0008"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -3178,44 +3404,116 @@
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="NFR-0002"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
-<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
-<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0001"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0002"/>
-<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="CRQ-0003"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="CRQ-0004"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="CRQ-0005"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 </rem:traceabilityMatrix>
 </rem:section>
@@ -3265,6 +3563,62 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>B </rem:number>
+<rem:paragraph oid="PRG-0134">
+<rem:name>Fichero de productos gastados</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>La aplicación generará un fichero de texto con una estructura similar a la siguiente con el registro de elementos gastados en el intervalo de tiempo especificado</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0045">
+<rem:name>Fichero de productos gastados</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\Registro de productos gastados.PNG]]></rem:fileName>
+</rem:graphicFile>
+<rem:paragraph oid="PRG-0135">
+<rem:name>Historial de jornada</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>La aplicación tambien generará otro fichero a petición con el resumen del numero de pedidos, el sabor más demandado y métricas interesantes</rem:text>
+</rem:paragraph>
+<rem:graphicFile oid="GRF-0046">
+<rem:name>Historial de jornada</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>2</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\Historial de ventas]]></rem:fileName>
+</rem:graphicFile>
 </rem:appendix>
 <rem:appendix oid="SEC-0038">
 <rem:name>Glosario de acrónimos y abreviaturas</rem:name>
@@ -3929,131 +4283,159 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>4.1 </rem:number>
-<rem:graphicFile oid="GRF-0031">
-<rem:name>Secuencia de realizar pedido</rem:name>
+<rem:graphicFile oid="GRF-0051">
+<rem:name><rem:ref oid="GLO-0104">Secuencia de realizar un pedido</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2022</rem:year>
-<rem:month>1</rem:month>
-<rem:day>16</rem:day>
+<rem:month>7</rem:month>
+<rem:day>21</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:fileName><![CDATA[.\images\secuenciaPedido.png]]></rem:fileName>
+<rem:fileName><![CDATA[.\images\secuencia1.drawio.png]]></rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile oid="GRF-0032">
-<rem:name><rem:ref oid="GLO-0105">Secuencia de realizar un pago</rem:ref></rem:name>
+<rem:graphicFile oid="GRF-0052">
+<rem:name><rem:ref oid="GLO-0105">Secuencia de selección del método de pago</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2022</rem:year>
-<rem:month>1</rem:month>
-<rem:day>16</rem:day>
+<rem:month>7</rem:month>
+<rem:day>21</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:fileName><![CDATA[.\images\secuenciaPago.png]]></rem:fileName>
+<rem:fileName><![CDATA[.\images\secuencia2.drawio.png]]></rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile oid="GRF-0033">
-<rem:name><rem:ref oid="GLO-0106">Secuencia de pedir una cita</rem:ref></rem:name>
+<rem:graphicFile oid="GRF-0053">
+<rem:name><rem:ref oid="GLO-0106">Secuencia de pedir cita</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2022</rem:year>
-<rem:month>1</rem:month>
-<rem:day>16</rem:day>
+<rem:month>7</rem:month>
+<rem:day>21</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:fileName><![CDATA[.\images\secuenciaCita.png]]></rem:fileName>
+<rem:fileName><![CDATA[.\images\secuencia3.drawio.png]]></rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile oid="GRF-0034">
+<rem:graphicFile oid="GRF-0054">
 <rem:name><rem:ref oid="GLO-0107">Secuencia de consultar inventario</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2022</rem:year>
-<rem:month>1</rem:month>
-<rem:day>16</rem:day>
+<rem:month>7</rem:month>
+<rem:day>21</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:fileName><![CDATA[.\images\secuenciaInventario.png]]></rem:fileName>
+<rem:fileName><![CDATA[.\images\secuencia4.drawio.png]]></rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile oid="GRF-0035">
-<rem:name><rem:ref oid="GLO-0108">Secuencia de comprobar eventos</rem:ref></rem:name>
+<rem:graphicFile oid="GRF-0055">
+<rem:name><rem:ref oid="GLO-0108">Secuencia de comprobación de eventos</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2022</rem:year>
-<rem:month>1</rem:month>
-<rem:day>16</rem:day>
+<rem:month>7</rem:month>
+<rem:day>21</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:fileName><![CDATA[.\images\secuenciaEventos.png]]></rem:fileName>
+<rem:fileName><![CDATA[.\images\secuencia5.drawio.png]]></rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile oid="GRF-0036">
-<rem:name><rem:ref oid="GLO-0109">Secuencia de asignar trabajadores</rem:ref></rem:name>
+<rem:graphicFile oid="GRF-0056">
+<rem:name><rem:ref oid="GLO-0109">Secuencia de asignación de trabajadores</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2022</rem:year>
-<rem:month>1</rem:month>
-<rem:day>16</rem:day>
+<rem:month>7</rem:month>
+<rem:day>21</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:fileName><![CDATA[.\images\secuenciaTrabajadores.png]]></rem:fileName>
+<rem:fileName><![CDATA[.\images\secuencia6.drawio.png]]></rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile oid="GRF-0037">
-<rem:name><rem:ref oid="GLO-0110">Secuencia de gestionar pedidos</rem:ref></rem:name>
+<rem:graphicFile oid="GRF-0057">
+<rem:name><rem:ref oid="GLO-0110">Secuencia de consultar pedidos</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2022</rem:year>
-<rem:month>1</rem:month>
-<rem:day>16</rem:day>
+<rem:month>7</rem:month>
+<rem:day>21</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:fileName><![CDATA[.\images\secuenciaControlPedidos.png]]></rem:fileName>
+<rem:fileName><![CDATA[.\images\secuencia7.drawio.png]]></rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile oid="GRF-0038">
-<rem:name><rem:ref oid="GLO-0111">Secuencia de generar informe</rem:ref></rem:name>
+<rem:graphicFile oid="GRF-0058">
+<rem:name><rem:ref oid="GLO-0111">Secuencia de consultar informe</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2022</rem:year>
-<rem:month>1</rem:month>
-<rem:day>16</rem:day>
+<rem:month>7</rem:month>
+<rem:day>21</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:fileName><![CDATA[.\images\secuenciaResumen.png]]></rem:fileName>
+<rem:fileName><![CDATA[.\images\secuencia8.drawio.png]]></rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile oid="GRF-0039">
+<rem:graphicFile oid="GRF-0059">
 <rem:name><rem:ref oid="GLO-0112">Secuencia de generar pedido al proveedor</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2022</rem:year>
-<rem:month>1</rem:month>
-<rem:day>16</rem:day>
+<rem:month>7</rem:month>
+<rem:day>21</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:fileName><![CDATA[.\images\secuenciaProveedor.png]]></rem:fileName>
+<rem:fileName><![CDATA[.\images\secuencia9.drawio.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0060">
+<rem:name><rem:ref oid="GLO-0136">Secuencia de crear cuenta (consumidor)</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>7</rem:month>
+<rem:day>21</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\secuencia10.drawio.png]]></rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile oid="GRF-0061">
+<rem:name><rem:ref oid="GLO-0137">Secuencia de crear cuenta (cachimbero)</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>7</rem:month>
+<rem:day>21</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:fileName><![CDATA[.\images\secuencia11.drawio.png]]></rem:fileName>
 </rem:graphicFile>
 </rem:section>
 <rem:section oid="SEC-0075">
@@ -4082,10 +4464,10 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>Esta secuencia describe cómo interactúa el consumidor con el sistema para poder realizar un pedido. Incluye a la <rem:ref oid="GLO-0105">secuencia de realizar un pago</rem:ref>.</rem:text>
+<rem:text>Esta secuencia describe cómo interactúa el consumidor con el sistema para poder realizar un pedido. Incluye a la <rem:ref oid="GLO-0105">secuencia de selección del método de pago</rem:ref>.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0105">
-<rem:name>Secuencia de realizar un pago</rem:name>
+<rem:name>Secuencia de selección del método de pago</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4099,7 +4481,7 @@
 <rem:text>Esta secuencia describe la interacción entre el consumidor y el sistema a la hora de efectuar el pago de un pedido. Es incluida dentro de la <rem:ref oid="GLO-0104">secuencia de realizar un pedido</rem:ref>.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0106">
-<rem:name>Secuencia de pedir una cita</rem:name>
+<rem:name>Secuencia de pedir cita</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4127,7 +4509,7 @@
 <rem:text>En esta secuencia se describe la interacción entre el cachimbero y el sistema a la hora de una solicitud de consulta de inventario por parte del cachimbero. </rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0108">
-<rem:name>Secuencia de comprobar eventos</rem:name>
+<rem:name>Secuencia de comprobación de eventos</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4141,7 +4523,7 @@
 <rem:text>Esta secuencia describe el proceso por el cual el cachimbero recibe la información de los próximos eventos que debe atender por parte del sistema.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0109">
-<rem:name>Secuencia de asignar trabajadores</rem:name>
+<rem:name>Secuencia de asignación de trabajadores</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4155,7 +4537,7 @@
 <rem:text>En esta secuencia se indica el proceso por el cual el cachimbero puede asignar a uno o varios empleados disponibles para un evento a través del sistema, el cual notifica a los empleados seleccionados.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0110">
-<rem:name>Secuencia de gestionar pedidos</rem:name>
+<rem:name>Secuencia de consultar pedidos</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4169,7 +4551,7 @@
 <rem:text>En esta secuencia se describe cómo el cachimbero consulta y gestiona los pedidos pendientes de un establecimiento en concreto, pudiendo marcar los pedidos completados para que no aparezcan más en la lista de pedidos pendientes.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem oid="GLO-0111">
-<rem:name>Secuencia de generar informe</rem:name>
+<rem:name>Secuencia de consultar informe</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4195,6 +4577,34 @@
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
 <rem:text>Esta última secuencia explica el procedimiento que sigue el cachimbero para solicitar al sistema que genere un documento con los artículos del inventario a reponer. El sistema genera el documento incluyendo los artículos que indique el cachimbero junto a sus cantidades. Una vez descargado, el cachimbero lo envía al proveedor.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0136">
+<rem:name>Secuencia de crear cuenta (consumidor)</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>7</rem:month>
+<rem:day>21</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>En esta secuencia un nuevo usuario se puede dar de alta en el sistema como consumidor aportando un nombre, un correo electrónico y una contraseña. De esta manerá podrá realizar pedidos y pedir citas para eventos.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem oid="GLO-0137">
+<rem:name>Secuencia de crear cuenta (cachimbero)</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>7</rem:month>
+<rem:day>21</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:text>En esta secuencia un nuevo usuario se puede dar de alta en el sistema como cachimbero aportando nombre, apellidos, un teléfono, un correo electrónico y una contraseña. De esta manerá podrá acceder al calendario de eventos, al inventario y a la pestaña de consulta y gestión de pedidos, además de poder obtener informes de la jornada y poder generar pedidos al proveedor.</rem:text>
 </rem:glossaryItem>
 </rem:section>
 </rem:section>
@@ -4436,7 +4846,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:text>La interfaz de usuario propuesta a Rhyno Shishas es una interfaz muy usable y respetuosa con el diseño en la marca de la empresa, construida en 3 y ocasionalmente 4 colores básicos mantiene un estilo uniforme en sus pantallas y deja muy claras las funcionalidades al usuario.<br/>Recorriendo la navegabilidad, nos encontramos una bienvenida con fotos del negocio, y a continuación un formulario de registro/autenticación. <br/>Una vez dependiendo de nuestra autoridad accederemos al menú de empleado o de cliente donde podremos ejecutar distintas funciones dependiendo de nuestro interés.</rem:text>
+<rem:text>Enlace del prototipo de interfaz de usuario online: https://marvelapp.com/prototype/2c95d28g<br/><br/>La interfaz de usuario propuesta a Rhyno Shishas es una interfaz muy usable y respetuosa con el diseño en la marca de la empresa, construida en 3 y ocasionalmente 4 colores básicos mantiene un estilo uniforme en sus pantallas y deja muy claras las funcionalidades al usuario.<br/><br/>Recorriendo la navegabilidad, nos encontramos una bienvenida con fotos del negocio, y a continuación un formulario de registro/autenticación. <br/><br/>Una vez dependiendo de nuestra autoridad accederemos al menú de empleado o de cliente donde podremos ejecutar distintas funciones dependiendo de nuestro interés.<br/><br/>En caso de ser trabajadores accederemos a una vista con las 4 funciones más importantes, atender clientes, manejo de inventario ajuste de citas e historial.<br/><br/>* Atender clientes: En esta pantalla tendremos una visual de todos los pedidos hechos en un local determinado en las últimas 24 h, así como un pequeño mapa que marca el estado de los pedidos por mesa indicando si están atendidos, por hacer o en cambio llevamos mas de 15 minutos sin atender la mesa según se marca en la leyenda situada justo encima. Dentro del pedido se detalla el tabaco requerido, la cantidad de personas y la mesa de destino.<br/><br/>*  Manejo de inventario: En este apartado el encargado de inventario puede examinar las existencias de los distintos tipos de producto, asi como editar estas cantidades o expedir un archivo con el inventario gastado que la aplicación ha estimado según los pedidos atendidos.<br/><br/>* Historial: En esta opción podremos consultar el historial de pedidos atendidos por persona y día para consultar detalles<br/><br/>* Ajuste de citas: Por último, en esta opción es posible gestionar las citas entrantes y asignarles trabajadores encargados de atender ese día.<br/><br/>Por separado, tenemos la pantalla de clientes: <br/><br/>* Realizar pedido: Se ofrece un formulario con el local, mesa y metodo de pago asi como especificar el sabor de tabaco a elegir o en cambio un combo pre-hecho ofertado por la empresa.<br/><br/>* Pedir cita: En esta última pantalla un cliente puede solicitar una cita especificando el nº de personas asistentes, lugar y detalles opcionales además de evidentemente la fecha del evento. Ésta quedará pendiente de aprobación por algún empleado.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -4584,6 +4994,509 @@
 <rem:comments>Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>7 </rem:number>
+<rem:traceabilityMatrix oid="TRM-0002">
+<rem:name>Clases Y Diagramas de Secuencia</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Ninguno</rem:comments>
+<rem:tr>
+<rem:th/>
+<rem:th oid ="GRF-0002"/>
+<rem:th oid ="GRF-0003"/>
+<rem:th oid ="GRF-0004"/>
+<rem:th oid ="GRF-0005"/>
+<rem:th oid ="GRF-0006"/>
+<rem:th oid ="GRF-0007"/>
+<rem:th oid ="GRF-0008"/>
+<rem:th oid ="GRF-0009"/>
+<rem:th oid ="GRF-0015"/>
+<rem:th oid ="GRF-0016"/>
+<rem:th oid ="GRF-0017"/>
+<rem:th oid ="GRF-0018"/>
+<rem:th oid ="GRF-0019"/>
+<rem:th oid ="GRF-0020"/>
+<rem:th oid ="GRF-0021"/>
+<rem:th oid ="GRF-0022"/>
+<rem:th oid ="GRF-0023"/>
+<rem:th oid ="GRF-0024"/>
+<rem:th oid ="GRF-0025"/>
+<rem:th oid ="GRF-0026"/>
+<rem:th oid ="GRF-0027"/>
+<rem:th oid ="GRF-0028"/>
+<rem:th oid ="GRF-0029"/>
+<rem:th oid ="GRF-0030"/>
+<rem:th oid ="GRF-0040"/>
+<rem:th oid ="GRF-0041"/>
+<rem:th oid ="GRF-0042"/>
+<rem:th oid ="GRF-0043"/>
+<rem:th oid ="GRF-0044"/>
+<rem:th oid ="GRF-0045"/>
+<rem:th oid ="GRF-0046"/>
+<rem:th oid ="GRF-0047"/>
+<rem:th oid ="GRF-0048"/>
+<rem:th oid ="GRF-0049"/>
+<rem:th oid ="GRF-0050"/>
+<rem:th oid ="GRF-0051"/>
+<rem:th oid ="GRF-0052"/>
+<rem:th oid ="GRF-0053"/>
+<rem:th oid ="GRF-0054"/>
+<rem:th oid ="GRF-0055"/>
+<rem:th oid ="GRF-0056"/>
+<rem:th oid ="GRF-0057"/>
+<rem:th oid ="GRF-0058"/>
+<rem:th oid ="GRF-0059"/>
+<rem:th oid ="GRF-0060"/>
+<rem:th oid ="GRF-0061"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="IRQ-0001"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="IRQ-0002"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="IRQ-0003"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="IRQ-0004"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="IRQ-0005"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="IRQ-0006"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="IRQ-0007"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="IRQ-0008"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="IRQ-0009"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+</rem:traceabilityMatrix>
 </rem:section>
 <rem:appendix oid="SEC-0081">
 <rem:name>Glosario de acrónimos y abreviaturas</rem:name>
@@ -4627,46 +5540,70 @@
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source="FRQ-0006"  target="UC-0005" >
+<rem:trace source="IRQ-0005"  target="UC-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0001"  target="UC-0006" >
+<rem:trace source="IRQ-0006"  target="UC-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0001"  target="UC-0005" >
+<rem:trace source="IRQ-0004"  target="UC-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0002"  target="UC-0006" >
+<rem:trace source="IRQ-0001"  target="UC-0008" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="NFR-0002"  target="UC-0005" >
+<rem:trace source="IRQ-0002"  target="UC-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="CRQ-0001"  target="UC-0005" >
+<rem:trace source="IRQ-0002"  target="UC-0008" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0006"  target="UC-0006" >
+<rem:trace source="IRQ-0008"  target="UC-0009" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0002"  target="UC-0007" >
+<rem:trace source="IRQ-0001"  target="UC-0006" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="CRQ-0001"  target="UC-0006" >
+<rem:trace source="IRQ-0004"  target="UC-0009" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="NFR-0002"  target="UC-0006" >
+<rem:trace source="IRQ-0004"  target="UC-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0001"  target="UC-0007" >
+<rem:trace source="IRQ-0007"  target="UC-0009" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="NFR-0002"  target="UC-0007" >
+<rem:trace source="IRQ-0004"  target="UC-0007" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0002"  target="UC-0008" >
+<rem:trace source="IRQ-0009"  target="UC-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="IRQ-0003"  target="UC-0007" >
+<rem:trace source="IRQ-0005"  target="UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0005"  target="UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0002"  target="UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0003"  target="UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0002"  target="UC-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0001"  target="UC-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0003"  target="UC-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0004"  target="UC-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source="IRQ-0005"  target="UC-0008" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="IRQ-0009"  target="UC-0008" >
@@ -4678,196 +5615,46 @@
 <rem:trace source="IRQ-0003"  target="UC-0008" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="IRQ-0006"  target="UC-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0003"  target="UC-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="CRQ-0002"  target="UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0004"  target="UC-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0007"  target="UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="CRQ-0001"  target="UC-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0008"  target="UC-0003" >
+<rem:trace source="IRQ-0005"  target="UC-0005" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="IRQ-0009"  target="UC-0006" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="CRQ-0002"  target="UC-0004" >
+<rem:trace source="IRQ-0003"  target="UC-0007" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0002"  target="UC-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0003"  target="UC-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0005"  target="UC-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0001"  target="UC-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0002"  target="UC-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0002"  target="UC-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0007"  target="UC-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0001"  target="UC-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0008"  target="UC-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0002"  target="UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0001"  target="UC-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0005"  target="UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0009"  target="UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0004"  target="UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0004"  target="UC-0007" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0004"  target="UC-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0002"  target="UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0002"  target="UC-0007" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0004"  target="UC-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0001"  target="UC-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0003"  target="UC-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0005"  target="UC-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0005"  target="UC-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0003"  target="UC-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="IRQ-0006"  target="UC-0003" >
+<rem:trace source="IRQ-0006"  target="UC-0006" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="IRQ-0003"  target="UC-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="IRQ-0005"  target="UC-0005" >
+<rem:trace source="IRQ-0003"  target="UC-0009" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="IRQ-0004"  target="UC-0003" >
+<rem:trace source="IRQ-0004"  target="UC-0008" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="NFR-0002"  target="UC-0009" >
+<rem:trace source="CRQ-0002"  target="UC-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="NFR-0001"  target="UC-0009" >
+<rem:trace source="CRQ-0001"  target="UC-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="NFR-0001"  target="UC-0008" >
+<rem:trace source="CRQ-0002"  target="UC-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0001"  target="UC-0008" >
+<rem:trace source="CRQ-0001"  target="UC-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source="FRQ-0003"  target="UC-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0003"  target="UC-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0002"  target="UC-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0004"  target="UC-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0001"  target="UC-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source="FRQ-0005"  target="UC-0008" >
+<rem:trace source="CRQ-0001"  target="UC-0006" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source="CRQ-0002"  target="UC-0009" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>
-<rem:predefinedValueType oid="PVT-0001">
-<rem:name>Real</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Real numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0002">
-<rem:name>Integer</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Integer numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0004">
-<rem:name>String</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type</rem:comments>
-<rem:description>Alphanumeric strings</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0003">
 <rem:name>Natural</rem:name>
 <rem:version>
@@ -4881,21 +5668,6 @@
 </rem:version>
 <rem:comments>Predefined OCL type</rem:comments>
 <rem:description>Natural numbers</rem:description>
-<rem:definition>(null)</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType oid="PVT-0005">
-<rem:name>Date</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>Predefined OCL type (non-standard)</rem:comments>
-<rem:description>Dates</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType oid="PVT-0006">
@@ -4913,28 +5685,88 @@
 <rem:description>Hour:minutes:seconds</rem:description>
 <rem:definition>(null)</rem:definition>
 </rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0001">
+<rem:name>Real</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Real numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0004">
+<rem:name>String</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Alphanumeric strings</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0005">
+<rem:name>Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type (non-standard)</rem:comments>
+<rem:description>Dates</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType oid="PVT-0002">
+<rem:name>Integer</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>Predefined OCL type</rem:comments>
+<rem:description>Integer numbers</rem:description>
+<rem:definition>(null)</rem:definition>
+</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0003">
-<rem:name>pendiente de aprobar/rechazar</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de análisis</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:conflictStatusValue oid = "CSV-0002">
-<rem:name>no resuelto</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
+</rem:changeRequestStatusValue>
+<rem:conflictStatusValue oid = "CSV-0001">
+<rem:name>PD</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
@@ -4942,14 +5774,11 @@
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0001">
-<rem:name>PD</rem:name>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
-</rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0002">
-<rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
@@ -4957,64 +5786,13 @@
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>no eliminado</rem:name>
+</rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
-<rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0017">
@@ -5023,28 +5801,10 @@
 <![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0012">
@@ -5053,10 +5813,46 @@
 <![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0011">
 <rem:name>Imprecisión</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0013">
@@ -5065,26 +5861,62 @@
 <![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0001">
-<rem:name>PD</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0003">
 <rem:name>importante</rem:name>
 </rem:importanceValue>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>PD</rem:name>
+</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0003">
-<rem:name>media</rem:name>
-</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0001">
 <rem:name>PD</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0003">
+<rem:name>media</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
@@ -5092,8 +5924,8 @@
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0002">
-<rem:name>en construcción</rem:name>
+<rem:statusValue oid = "STV-0003">
+<rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0004">
 <rem:name>pendiente de validación</rem:name>
@@ -5101,14 +5933,14 @@
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0003">
-<rem:name>pendiente de verificación</rem:name>
+<rem:statusValue oid = "STV-0002">
+<rem:name>en construcción</rem:name>
 </rem:statusValue>
-<rem:terminationValue oid = "TEV-0001">
-<rem:name>PD</rem:name>
-</rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
+</rem:terminationValue>
+<rem:terminationValue oid = "TEV-0001">
+<rem:name>PD</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
@@ -5119,44 +5951,44 @@
 <rem:timeUnitValue oid = "TUV-0009">
 <rem:name>hora(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>inmediatamente</rem:name>
+</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0004">
-<rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>
 </rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0002">
-<rem:name>inmediatamente</rem:name>
+<rem:urgencyValue oid = "URV-0004">
+<rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
